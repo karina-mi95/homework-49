@@ -1,0 +1,17 @@
+mkdir projects
+cd projects
+mkdir directory1 directory2 directory3
+ls
+cd directory1
+mkdir subdirectory1
+ls
+cd ..
+cd directory2
+touch hello.txt
+ls
+echo "Hello from JS" > hello.txt
+cat hello.txt
+cd ..
+cd directory3
+mkdir subdirectory2
+ls
