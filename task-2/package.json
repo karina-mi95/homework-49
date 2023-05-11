@@ -1,11 +1,12 @@
 {
-  "name": "homework-49",
+  "name": "homework-49_task-2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "board": "nodemon"
+    "dev": "nodemon",
+    "board": "npm run build && node board.js"
   },
   "author": "",
   "license": "ISC",
