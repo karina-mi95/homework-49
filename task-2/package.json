@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "nodemon"
+    "board": "nodemon"
   },
   "author": "",
   "license": "ISC",
